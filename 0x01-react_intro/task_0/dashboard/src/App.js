@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./ALX_Logo.jpg";
 import "./App.css";
+import { getFullYear, getFooterCopy } from "./utils";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <p>Login to access the full dashboard</p>
       </div>
       <footer className="App-footer">
-        <p>Copyright 2020 - ALX</p>
+        <p>
+          Copyright {getFullYear()} - {getFooterCopy(true)}
+        </p>
       </footer>
     </div>
   );
