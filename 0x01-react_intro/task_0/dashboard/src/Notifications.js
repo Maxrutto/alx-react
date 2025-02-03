@@ -1,5 +1,7 @@
 import React from "react";
 import "./Notifications.css";
+import { getLatestNotification } from "./utils";
+import closeIcon from "./close-icon.png";
 
 const buttonClick = () => {
   console.log("Close button has been clicked");
@@ -19,7 +21,7 @@ function Notifications() {
         onClick={buttonClick}
       >
         <img
-          src="close-icon.png"
+          src={closeIcon}
           alt="close icon"
           style={{ width: "10px", height: "10px" }}
         />

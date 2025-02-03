@@ -36,3 +36,17 @@
   text-align: center;
   font-style: italic;
 }
+
+.App-body input {
+  margin: 10px 8px 0 8px;
+}
+
+.App-body label {
+  margin-right: 5px;
+}
+
+.App-body form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

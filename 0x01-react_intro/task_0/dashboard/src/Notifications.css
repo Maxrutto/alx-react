@@ -2,3 +2,10 @@
     border: 2px dashed red;
     padding: 10px;
 }
+
+[data-priority="default"] {
+    color: blue;
+}
+[data-priority="urgent"] {
+    color: red;
+}
